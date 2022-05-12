@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    height: 300px;
+    
+}
+.img{
+    width: 150px;
+    
+}
+.img-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.down{
+    height: 1px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    gap:30px
+}
+.img-job{
+    display: flex;
+
+}
+.job-title{
+    /* -ms-transform: rotate(45deg); */
+    transform: rotate(90deg);
+    position: relative;
+    left: -106px;
+    top: -84px;
+}
